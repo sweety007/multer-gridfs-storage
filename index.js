@@ -17,4 +17,7 @@ const GridFsStorage = require('./lib/gridfs');
  * @see [GridFSStorage]{@link module:multer-gridfs-storage/gridfs~GridFSStorage}
  * **/
 
-module.exports = exports = GridFsStorage;
+module.exports = exports = {
+  imagemagickStreamFixed: true,
+  GridFsStorage
+};
